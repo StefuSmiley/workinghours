@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(51, 51, 51);
+  font-family: Arial;
+  text-align: center;
+}
+
+.headline {
+  color: white;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.input-box {
+  color: black;
+  font-size: 15px;
+  margin-top: 0px;
+  border-radius: 50px;
+  border: none;
+  padding: 7px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 75px;
+  font-weight: bold;
+}
+
+.label-input {
+  background-color: rgb(254, 160, 10);
+  color: white;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+}
+
+.are-equal {
+  color: rgb(47, 236, 26);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.arent-equal {
+  color: rgb(242, 28, 28);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.calculate {
+  background-color: rgb(22, 167, 143);
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 125px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.red-hotel-headline {
+  color: white;
+  font-size: 40px;
+  margin-top: 600px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.end {
+  margin-bottom: 500px;
+}

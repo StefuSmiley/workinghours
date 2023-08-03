@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blue and Red Hotel Working Times</title>
+    <link rel="stylesheet" href="styles/working-hours.css" />
+  </head>
+  <body>
+    <p class="headline">Blue Hotel</p>
+
+    <label for="js-room-input" class="label-input">Number of Rooms:</label>
+    <input class="js-room-input input-box" id="roomInput" />
+
+    <p></p>
+
+    <label for="js-bunkbed-input" class="label-input"
+      >Number of Bunk Beds:</label
+    >
+    <input class="js-bunkbed-input input-box" />
+
+    <p class="js-room-time text"></p>
+
+    <p></p>
+
+    <label for="startTime" class="label-input">Start Time:</label>
+    <input class="input-box" id="startTime" />
+
+    <p></p>
+
+    <label for="finishTime" class="label-input">Finish Time:</label>
+    <input class="input-box" id="finishTime" />
+
+    <p></p>
+
+    <button
+      onclick="calculateTotal();calculateTime();calculateBunkBeds();"
+      class="calculate"
+    >
+      Calculate
+    </button>
+
+    <p id="result" class="text"></p>
+
+    <p id="compare" class="text"></p>
+
+    <p class="red-hotel-headline">Red Hotel</p>
+
+    <label for="rRoomInput" class="label-input">Number of Rooms:</label>
+    <input class="input-box" id="rRoomInput" />
+
+    <p></p>
+
+    <label for="sofaInput" class="label-input">Number of Sofas:</label>
+    <input class="input-box js-sofa-input" />
+
+    <p class="js-red-room-time text"></p>
+
+    <p></p>
+
+    <label for="rStartTime" class="label-input">Start Time:</label>
+    <input class="input-box" id="rStartTime" />
+
+    <p></p>
+
+    <label for="rFinishTime" class="label-input">Finish Time:</label>
+    <input class="input-box" id="rFinishTime" />
+
+    <p></p>
+
+    <button
+      onclick="redCalculateTotal();redCalculateTime();calculateSofas();"
+      class="calculate"
+    >
+      Calculate
+    </button>
+
+    <p id="rResult" class="text"></p>
+
+    <p id="rCompare" class="text"></p>
+
+    <p class="end"></p>
+
+    <script src="scripts/working-hours.js"></script>
+  </body>
+</html>
